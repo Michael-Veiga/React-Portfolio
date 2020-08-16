@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/%3Creact-portfolio%3E/static/css/main.c58e4721.chunk.css",
+    "main.js": "/%3Creact-portfolio%3E/static/js/main.416172be.chunk.js",
+    "main.js.map": "/%3Creact-portfolio%3E/static/js/main.416172be.chunk.js.map",
+    "runtime-main.js": "/%3Creact-portfolio%3E/static/js/runtime-main.d35c0d94.js",
+    "runtime-main.js.map": "/%3Creact-portfolio%3E/static/js/runtime-main.d35c0d94.js.map",
+    "static/css/2.f3cffc9e.chunk.css": "/%3Creact-portfolio%3E/static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.94844e30.chunk.js": "/%3Creact-portfolio%3E/static/js/2.94844e30.chunk.js",
+    "static/js/2.94844e30.chunk.js.map": "/%3Creact-portfolio%3E/static/js/2.94844e30.chunk.js.map",
+    "index.html": "/%3Creact-portfolio%3E/index.html",
+    "precache-manifest.47ccce6f4f258d9667d9388c1cec3d22.js": "/%3Creact-portfolio%3E/precache-manifest.47ccce6f4f258d9667d9388c1cec3d22.js",
+    "service-worker.js": "/%3Creact-portfolio%3E/service-worker.js",
+    "static/css/2.f3cffc9e.chunk.css.map": "/%3Creact-portfolio%3E/static/css/2.f3cffc9e.chunk.css.map",
+    "static/css/main.c58e4721.chunk.css.map": "/%3Creact-portfolio%3E/static/css/main.c58e4721.chunk.css.map",
+    "static/js/2.94844e30.chunk.js.LICENSE.txt": "/%3Creact-portfolio%3E/static/js/2.94844e30.chunk.js.LICENSE.txt",
+    "static/media/guruPic.png": "/%3Creact-portfolio%3E/static/media/guruPic.11f3a256.png",
+    "static/media/planetPic.png": "/%3Creact-portfolio%3E/static/media/planetPic.4f263ba1.png",
+    "static/media/profPic.png": "/%3Creact-portfolio%3E/static/media/profPic.6749b137.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d35c0d94.js",
+    "static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.94844e30.chunk.js",
+    "static/css/main.c58e4721.chunk.css",
+    "static/js/main.416172be.chunk.js"
+  ]
+}
