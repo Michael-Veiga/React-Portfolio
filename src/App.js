@@ -23,7 +23,7 @@ class App extends React.Component {
       home: {
         title: 'Never Stop Growing',
         subTitle: "Welcome to Michael's Portfolio",
-        text: 'Checkout my projects below',
+        text: 'Click on my projects below',
       },
       about: {
         title: 'About Me',
@@ -38,18 +38,18 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Michael Veiga</Navbar.Brand>
+            <Navbar.Brand className="text-white">Michael Veiga</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link text-white" to="/">
                   Home
                 </Link>
-                <Link className="nav-link" to="/About">
+                <Link className="nav-link text-white" to="/About">
                   About
                 </Link>
-                <Link className="nav-link" to="/Contact">
+                <Link className="nav-link text-white" to="/Contact">
                   Contact
                 </Link>
               </Nav>

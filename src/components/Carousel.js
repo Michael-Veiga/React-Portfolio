@@ -16,7 +16,7 @@ class Carousel extends React.Component {
             {
                 id: 0,
                 title: 'Professor Planet',
-                subTitle: 'An entertaining and educational resource for people interested in space and our solar system',
+                subTitle: 'An educational resource for people interested in space and our solar system',
                 imgSrc: planetPic,
                 link: "https://bowdwin.github.io/Project-1/",
                 selected: false
@@ -24,7 +24,7 @@ class Carousel extends React.Component {
             {
                 id: 1,
                 title: 'Food Guru',
-                subTitle: 'A meal planning app that allows users to search for recipes and add them to their weekly calender.',
+                subTitle: 'A meal planning app that allows users to search for and save their favorite recipes.',
                 imgSrc: guruPic,
                 link: "https://arcane-coast-86770.herokuapp.com/",
                 selected: false
@@ -59,7 +59,7 @@ class Carousel extends React.Component {
     render() {
         return(
             <Container fluid={true}>
-            <Row className="justify-content-around">
+            <Row className="justify-content-center">
                 {this.makeItems(this.state.items)}
             </Row>
         </Container>
