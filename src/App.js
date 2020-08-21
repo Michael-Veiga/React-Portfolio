@@ -46,10 +46,10 @@ class App extends React.Component {
                 <Link className="nav-link text-white item-grow" to="/">
                   Home
                 </Link>
-                <Link className="nav-link text-white item-grow" to="/About">
+                <Link className="nav-link text-white item-grow" to="/about">
                   About
                 </Link>
-                <Link className="nav-link text-white item-grow" to="/Contact">
+                <Link className="nav-link text-white item-grow" to="/contact">
                   Contact
                 </Link>
               </Nav>
