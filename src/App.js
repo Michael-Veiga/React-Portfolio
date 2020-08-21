@@ -37,19 +37,19 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
+          <Navbar className="nav-effect" bg="transparent" expand="lg">
             <Navbar.Brand className="text-white">Michael Veiga</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link text-white" to="/">
+                <Link className="nav-link text-white item-grow" to="/">
                   Home
                 </Link>
-                <Link className="nav-link text-white" to="/About">
+                <Link className="nav-link text-white item-grow" to="/About">
                   About
                 </Link>
-                <Link className="nav-link text-white" to="/Contact">
+                <Link className="nav-link text-white item-grow" to="/Contact">
                   Contact
                 </Link>
               </Nav>
