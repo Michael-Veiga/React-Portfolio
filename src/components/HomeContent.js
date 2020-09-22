@@ -24,7 +24,7 @@ class HomeContent extends React.Component {
                 title: 'Kick-Tout',
                 subTitle: 'A forum that connects users who want to sell or trade shoes.',
                 imgSrc: 'https://github.com/Michael-Veiga/react-portfolio/blob/master/src/assets/images/kickTout.JPG?raw=true',
-                link: "http://kicktout.herokuapp.com/",
+                link: "https://kicktout.herokuapp.com/",
                 repo: "https://github.com/jbouchard13/project-3.git",
                 selected: false 
             },
