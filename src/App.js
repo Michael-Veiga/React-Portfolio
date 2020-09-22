@@ -9,7 +9,6 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-import {createBrowserHistory} from "history";
 
 
 class App extends React.Component {
