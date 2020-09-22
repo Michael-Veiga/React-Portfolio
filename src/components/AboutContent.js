@@ -8,7 +8,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 // import styled from 'styled-components';
 
-import profPic from '../assets/images/profPic.png';
 import pdf from '../assets/resume/developerResume.pdf';
 
 
@@ -18,7 +17,7 @@ function AboutContent(props) {
         <Container fluid={true}>
             <Row className="justify-content-center">
                 <Col md={2}>
-                <img className="p-pic-image pr-2" src={profPic} alt=''/>
+                <img className="p-pic-image pr-2" src="https://github.com/Michael-Veiga/react-portfolio/blob/master/src/assets/images/profPic.png?raw=true" alt=''/>
                 </Col>
                 <Col md={5}>
                     {props.children}

@@ -4,10 +4,6 @@ import Row from 'react-bootstrap/Row';
 
 import Card from './Card';
 
-import planetPic from '../assets/images/planetPic.png';
-import guruPic from '../assets/images/guruPic.png';
-import kickPic from '../assets/images/kickTout.JPG';
-
 class HomeContent extends React.Component {
 
     constructor(props) {
@@ -18,7 +14,7 @@ class HomeContent extends React.Component {
                 id: 0,
                 title: 'Professor Planet',
                 subTitle: 'An educational resource for people interested in space and our solar system',
-                imgSrc: planetPic,
+                imgSrc: "https://github.com/Michael-Veiga/react-portfolio/blob/master/src/assets/images/planetPic.png?raw=true",
                 link: "https://bowdwin.github.io/Project-1/",
                 repo: "https://github.com/bowdwin/Project-1.git",
                 selected: false
@@ -27,7 +23,7 @@ class HomeContent extends React.Component {
                 id: 1,
                 title: 'Kick-Tout',
                 subTitle: 'A forum that connects users who want to sell or trade shoes.',
-                imgSrc: kickPic,
+                imgSrc: 'https://github.com/Michael-Veiga/react-portfolio/blob/master/src/assets/images/kickTout.JPG?raw=true',
                 link: "http://kicktout.herokuapp.com/",
                 repo: "https://github.com/jbouchard13/project-3.git",
                 selected: false 
@@ -36,7 +32,7 @@ class HomeContent extends React.Component {
                 id: 2,
                 title: 'Food Guru',
                 subTitle: 'A meal planning app that allows users to search for and save their favorite recipes.',
-                imgSrc: guruPic,
+                imgSrc: 'https://github.com/Michael-Veiga/react-portfolio/blob/master/src/assets/images/guruPic.png?raw=true',
                 link: "https://arcane-coast-86770.herokuapp.com/",
                 repo: "https://github.com/gavinspotter/project2",
                 selected: false
