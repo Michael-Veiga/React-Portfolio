@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 // import styled from 'styled-components';
 
 import profPic from '../assets/images/profPic.png';
-import pdf from '../assets/resume/pdfResume.pdf';
+import pdf from '../assets/resume/developerResume.pdf';
 
 
 function AboutContent(props) {

@@ -2,12 +2,13 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-import Card from '../components/Card';
+import Card from './Card';
 
 import planetPic from '../assets/images/planetPic.png';
 import guruPic from '../assets/images/guruPic.png';
+import kickPic from '../assets/images/kickTout.JPG';
 
-class Carousel extends React.Component {
+class HomeContent extends React.Component {
 
     constructor(props) {
         super(props);
@@ -19,14 +20,25 @@ class Carousel extends React.Component {
                 subTitle: 'An educational resource for people interested in space and our solar system',
                 imgSrc: planetPic,
                 link: "https://bowdwin.github.io/Project-1/",
+                repo: "https://github.com/bowdwin/Project-1.git",
                 selected: false
             },
             {
                 id: 1,
+                title: 'Kick-Tout',
+                subTitle: 'A forum that connects users who want to sell or trade shoes.',
+                imgSrc: kickPic,
+                link: "http://kicktout.herokuapp.com/",
+                repo: "https://github.com/jbouchard13/project-3.git",
+                selected: false 
+            },
+            {
+                id: 2,
                 title: 'Food Guru',
                 subTitle: 'A meal planning app that allows users to search for and save their favorite recipes.',
                 imgSrc: guruPic,
                 link: "https://arcane-coast-86770.herokuapp.com/",
+                repo: "https://github.com/gavinspotter/project2",
                 selected: false
             },
             ]
@@ -68,4 +80,4 @@ class Carousel extends React.Component {
 
 }
 
-export default Carousel;
+export default HomeContent;
