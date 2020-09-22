@@ -36,7 +36,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <Router>
+      <Router basename="/react-portfolio">
         <Container className="p-0" fluid={true}>
           <Navbar className="nav-effect" expand="lg">
             <Navbar.Brand className="text-white">Michael Veiga</Navbar.Brand>

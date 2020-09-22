@@ -40,13 +40,4 @@ function AboutContent(props) {
     )
 }
 
-// const FontAwesomeIcon = styled.a`
-//     color: #000;
-//     transition: all 0.2s ease-in-out;
-//     hover: {
-//         transition: all 0.2s ease-in-out;
-//         transform: scale(1.1);
-//         text-shadow: 6px 6px 10px #65f135;
-//     }`
-
 export default AboutContent;
