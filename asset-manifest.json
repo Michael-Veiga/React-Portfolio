@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.adac044f.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.bfc076f6.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.bfc076f6.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.50ef4af2.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.1c004a64.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.1c004a64.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
     "static/css/2.1f35d23a.chunk.css": "/react-portfolio/static/css/2.1f35d23a.chunk.css",
-    "static/js/2.07c624ce.chunk.js": "/react-portfolio/static/js/2.07c624ce.chunk.js",
-    "static/js/2.07c624ce.chunk.js.map": "/react-portfolio/static/js/2.07c624ce.chunk.js.map",
+    "static/js/2.096f0392.chunk.js": "/react-portfolio/static/js/2.096f0392.chunk.js",
+    "static/js/2.096f0392.chunk.js.map": "/react-portfolio/static/js/2.096f0392.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.35206d44c54ff8dad54b57aec8ec9a2b.js": "/react-portfolio/precache-manifest.35206d44c54ff8dad54b57aec8ec9a2b.js",
+    "precache-manifest.6bc78b33ac0669e76543c4609aff7461.js": "/react-portfolio/precache-manifest.6bc78b33ac0669e76543c4609aff7461.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.1f35d23a.chunk.css.map": "/react-portfolio/static/css/2.1f35d23a.chunk.css.map",
-    "static/css/main.adac044f.chunk.css.map": "/react-portfolio/static/css/main.adac044f.chunk.css.map",
-    "static/js/2.07c624ce.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.07c624ce.chunk.js.LICENSE.txt",
-    "static/media/developerResume.pdf": "/react-portfolio/static/media/developerResume.b0042442.pdf"
+    "static/css/main.50ef4af2.chunk.css.map": "/react-portfolio/static/css/main.50ef4af2.chunk.css.map",
+    "static/js/2.096f0392.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.096f0392.chunk.js.LICENSE.txt",
+    "static/media/WebDevResume.pdf": "/react-portfolio/static/media/WebDevResume.a727194f.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
     "static/css/2.1f35d23a.chunk.css",
-    "static/js/2.07c624ce.chunk.js",
-    "static/css/main.adac044f.chunk.css",
-    "static/js/main.bfc076f6.chunk.js"
+    "static/js/2.096f0392.chunk.js",
+    "static/css/main.50ef4af2.chunk.css",
+    "static/js/main.1c004a64.chunk.js"
   ]
 }
