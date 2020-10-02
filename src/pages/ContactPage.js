@@ -5,6 +5,8 @@ import Content from '../components/Content';
 import ContactForm from '../components/ContactForm';
 
 
+
+
 class ContactPage extends React.Component {
 
     render() {
@@ -14,6 +16,7 @@ class ContactPage extends React.Component {
       <Content>
         <ContactForm/>
       </Content>
+
     </div>
     );
   }

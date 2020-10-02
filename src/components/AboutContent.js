@@ -4,28 +4,30 @@ import { faFile } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-// import styled from 'styled-components';
+import {Col, Row, Card} from 'react-bootstrap';
 
-import pdf from '../assets/resume/developerResume.pdf';
+import pdf from '../assets/resume/WebDevResume.pdf';
 
 
 function AboutContent(props) {
 
     return(
-        <Container fluid={true}>
-            <Row className="justify-content-center">
-                <Col md={2}>
-                <img className="p-pic-image pr-2" src="https://github.com/Michael-Veiga/react-portfolio/blob/master/src/assets/images/profPic.png?raw=true" alt=''/>
+        <Container className="pb-5" fluid={true}>
+            <Card className="mx-auto" style={{maxWidth: "65rem", backgroundColor: "transparent", transition: "border-width 0.6s linear", boxShadow: "0 0 15px 1px #65f135", }}>
+            <Row className="d-flex justify-content-center">
+                <Col lg={4}>
+                <img className="card-img" src="https://github.com/Michael-Veiga/react-portfolio/blob/master/src/assets/images/profPic.png?raw=true" alt='' />
                 </Col>
-                <Col md={5}>
+                <Col lg={8}>
+                    <Card.Body>
                     {props.children}
+                    </Card.Body>
                 </Col>
             </Row>
-            <Row className="mt-5 justify-content-around">
-                <Col lg={3}>
-                    <a href="https://github.com/Michael-Veiga" target="_blank" rel="noopener noreferrer">
+            </Card>
+            <Row className="mt-4 pt-5" fluid={true}>
+                <Col className="d-flex justify-content-center">
+                <a href="https://github.com/Michael-Veiga" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithub} className="grow fab fa-7x" alt="" />
                     </a>
                     <a href="https://www.linkedin.com/in/michael-veiga-473755142/" target="_blank" rel="noopener noreferrer">

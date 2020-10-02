@@ -38,10 +38,10 @@ class App extends React.Component {
     return (
       <Router basename="/react-portfolio">
         <Container className="p-0" fluid={true}>
-          <Navbar className="nav-effect" expand="lg">
+          <Navbar className="nav-effect" style={{backgroundColor: "black"}} expand="lg">
             <Navbar.Brand className="text-white">Michael Veiga</Navbar.Brand>
 
-            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" style={{backgroundColor: "#65f135"}}/>
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link text-white item-grow" to="/">
