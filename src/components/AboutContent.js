@@ -6,7 +6,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Container from 'react-bootstrap/Container';
 import {Col, Row, Card} from 'react-bootstrap';
 
-import pdf from '../assets/resume/WebDevResume.pdf';
+import pdf from '../assets/resume/DevResume2020.pdf';
 
 
 function AboutContent(props) {
