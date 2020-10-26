@@ -50,4 +50,4 @@ I attempted to make a full fledged react portfolio with working contact form. Un
 
 ## Media
 
-![Image of deployed application](https://github.com/Michael-Veiga/employee-directory/blob/master/public/employee-directory.JPG?raw=true)
+![Image of deployed application](https://github.com/Michael-Veiga/react-portfolio/blob/master/src/assets/images/reactp.JPG?raw=true)
