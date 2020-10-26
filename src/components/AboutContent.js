@@ -13,7 +13,7 @@ function AboutContent(props) {
 
     return(
         <Container className="pb-5" fluid={true}>
-            <Card className="mx-auto" style={{maxWidth: "65rem", backgroundColor: "transparent", transition: "border-width 0.6s linear", boxShadow: "0 0 15px 1px #65f135", }}>
+            <Card className="mx-auto" style={{maxWidth: "65rem", backgroundColor: "transparent", transition: "border-width 0.6s linear", boxShadow: "0 0 15px 1px #65f135"}}>
             <Row className="d-flex justify-content-center">
                 <Col lg={4}>
                 <img className="card-img" src="https://github.com/Michael-Veiga/react-portfolio/blob/master/src/assets/images/profPic.png?raw=true" alt='' />

@@ -2,16 +2,17 @@ import React from 'react';
 import {Col, Row, Card} from 'react-bootstrap';
 
 import '../index.css'
+import './borderSASS.scss'
 
 
 function CardContent(props) {
 
     return(
         <div>
-        <Card className="my-5 mx-auto" style={{maxWidth: "1110px", backgroundColor: "transparent", transition: "border-width 0.6s linear", boxShadow: "0 0 15px 1px #65f135"}}>
+        <Card className="bb my-5 mx-auto">
         <Row className="no-gutters">
         <Col md={4}>
-            <img className="card-img" src="https://github.com/Michael-Veiga/react-portfolio/blob/master/src/assets/images/planetPic.png?raw=true" alt="" />
+            <img className="card-img" src="https://github.com/Michael-Veiga/react-portfolio/blob/master/src/assets/images/planetPic.png?raw=true" alt=""/>
         </Col>
         <Col md={8}>
             <Card.Body className="py-0 text-center mt-2">
@@ -31,10 +32,10 @@ function CardContent(props) {
             </Col>
         </Row>
         </Card>
-        <Card className="my-5 mx-auto" style={{maxWidth: "1110px", backgroundColor: "transparent", transition: "border-width 0.6s linear", boxShadow: "0 0 15px 1px #65f135"}}>
+        <Card className="bb my-5 mx-auto">
         <Row className="no-gutters">
         <Col md={4}>
-            <img className="card-img" src="https://github.com/Michael-Veiga/react-portfolio/blob/master/src/assets/images/kickTout.JPG?raw=true" alt="" />
+            <img className="card-img" src="https://github.com/Michael-Veiga/react-portfolio/blob/master/src/assets/images/kickTout.JPG?raw=true" alt=""/>
         </Col>
         <Col md={8}>
             <Card.Body className="py-0 text-center mt-2">
@@ -57,7 +58,7 @@ function CardContent(props) {
             </Col>
         </Row>
         </Card>
-        <Card className="my-5 mx-auto" style={{maxWidth: "1110px", backgroundColor: "transparent", transition: "border-width 0.6s linear", boxShadow: "0 0 15px 1px #65f135"}}>
+        <Card className="bb my-5 mx-auto">
         <Row className="no-gutters">
         <Col md={4}>
             <img className="card-img" src="https://github.com/Michael-Veiga/react-portfolio/blob/master/src/assets/images/guruPic.png?raw=true" alt="" />

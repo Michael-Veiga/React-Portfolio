@@ -1,0 +1,83 @@
+// .bb::before { 
+//     content: ""; 
+//     position: absolute; 
+//     background: transparent;
+//     border: 1.5px solid transparent; 
+// } 
+ 
+// .bb:hover::before { 
+//     animation: animate .5s linear forwards;
+//     background-color: rgba(rgb(98, 0, 255), .3);
+// } 
+ 
+// @keyframes animate { 
+//     0% { 
+//         width: 0; 
+//         height: 0; 
+//         border-top-color: white; 
+//         border-right-color: transparent; 
+//         border-bottom-color: transparent; 
+//         border-left-color: transparent; 
+//     } 
+ 
+//     50% { 
+//         width: 100%; 
+//         height: 0; 
+//         border-top-color: white; 
+//         border-right-color: white; 
+//         border-bottom-color: transparent; 
+//         border-left-color: transparent; 
+//     } 
+ 
+//     100% { 
+//         width: 100%; 
+//         height: 100%; 
+//         border-top-color: white; 
+//         border-right-color: white; 
+//         border-bottom-color: transparent; 
+//         border-left-color: transparent; 
+//     } 
+// } 
+
+// .bb::after { 
+//     content: ""; 
+//     position: absolute;
+//     background: transparent; 
+//     border: 1.5px double transparent; 
+// } 
+
+// .bb:hover::after { 
+//     animation: animates .5s linear forwards;
+    
+//     // animation-delay: .2s; 
+//     // animation-iteration-count:infinite; 
+// } 
+ 
+// @keyframes animates { 
+//     0% { 
+//         width: 0; 
+//         height: 0; 
+//         border-top-color: transparent; 
+//         border-right-color: transparent; 
+//         border-bottom-color: transparent; 
+//         border-left-color:white; 
+//     } 
+
+//     50% { 
+//         width: 0; 
+//         height: 100%; 
+//         border-top-color: transparent; 
+//         border-right-color: transparent; 
+//         border-bottom-color:white; 
+//         border-left-color:white; 
+//     } 
+
+//     100% { 
+//         width: 100%; 
+//         height: 100%; 
+//         border-top-color: transparent; 
+//         border-right-color: transparent; 
+//         border-bottom-color:white; 
+//         border-left-color:white; 
+//     } 
+// } 

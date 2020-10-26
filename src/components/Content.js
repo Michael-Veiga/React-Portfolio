@@ -13,9 +13,9 @@ function Content(props) {
 
     return(
         <Container className="pb-5" fluid={true}>
-        <Row className="my-3">
+        <Row className="mb-5">
           <Col className="d-flex justify-content-center">
-            <h4 className="text-white text-center" style={{transition: "border-width 0.6s linear", boxShadow: "0 11px 15px -8px #65f135", }}>Feel free to email me using the following form, or via the contact information below.</h4>
+            <h4 className="text-white text-center" style={{transition: "border-width 0.6s linear", boxShadow: "0 11px 15px -10px #65f135", }}>Please contact me via the email form below, or the following contact information.</h4>
             </Col>
         </Row>
             <Row className="justify-content-center">
@@ -23,8 +23,8 @@ function Content(props) {
                     {props.children}
                 </Col>
             </Row>
-          <Row className="my-3">
-          <Col className="d-flex justify-content-center p-0 text-white">
+          <Row className="my-5">
+          <Col className="d-flex flex-row justify-content-center p-0 text-white">
           <h5 className="mb-0">Contact Information:</h5>
           <div className="mx-3">
           <FontAwesomeIcon icon={faPhone} className="fab mr-2" alt="" style={{height: "2rem", width: "2rem", margin: "-.3rem"}}/>

@@ -24,7 +24,7 @@ class App extends React.Component {
       home: {
         title: 'Never Stop Growing',
         subTitle: "Welcome to Michael's Portfolio",
-        text: 'Click on my projects below',
+        text: 'Click on my project links and repositories below',
       },
       about: {
         title: 'About Me',
@@ -38,10 +38,10 @@ class App extends React.Component {
     return (
       <Router basename="/react-portfolio">
         <Container className="p-0" fluid={true}>
-          <Navbar className="nav-effect" style={{backgroundColor: "black"}} expand="lg">
+          <Navbar className="nav-effect" style={{background: "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(1,41,1,1) 50%, rgba(0,0,0,1) 100%)"}} expand="lg">
             <Navbar.Brand className="text-white">Michael Veiga</Navbar.Brand>
 
-            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" style={{backgroundColor: "#65f135"}}/>
+            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" style={{backgroundColor: "#035403"}}/>
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link text-white item-grow" to="/">
