@@ -3,7 +3,9 @@ import { Tooltip, OverlayTrigger } from 'react-bootstrap';
 
 export default function CodeWars() {
   const renderTooltip = props => (
-    <Tooltip {...props}>Click to see my javascript progression</Tooltip>
+    <Tooltip {...props}>
+      Click to see my completed javascript challenges
+    </Tooltip>
   );
 
   return (
@@ -15,7 +17,7 @@ export default function CodeWars() {
       >
         <a
           target="_blank"
-          href="https://www.codewars.com/users/PatientXCompiler/completed_solutions"
+          href="https://www.codewars.com/users/PatientXCompiler/completed"
           rel="noopener noreferrer"
         >
           <img
